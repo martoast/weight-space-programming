@@ -1,0 +1,16 @@
+# Rebuildable environment and downloaded models (see README)
+gpt2env/
+gpt2/hf/
+qbox/model/
+# Model weights and tensor artifacts (too large for GitHub; kept locally)
+*.safetensors
+*.pt
+*.bin
+# Python / OS clutter
+__pycache__/
+.DS_Store
+# Third-party article text used as held-out data (fetch with fetch_texts.py; not redistributed)
+dl/
+bluebox/heldout_text.txt
+# Broken-checkpoint folders are rebuilt with gpt2/materialize.py
+bluebox/case_*/model/

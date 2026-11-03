@@ -1,0 +1,35 @@
+W1103 12:32:30.666000 44404 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (3443 > 1024). Running this sequence through the model will result in indexing errors
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 12424.58it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 3430.05it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 3859.88it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 5621.42it/s]
+01 {'broken': (0.91, 127.8, 0.0821, 0.0), 'blue_agent': (1.0, 120.3, 0.0, 1.0), 'doctor_v4': (0.913, 130.2, 0.1011, 0.0), 'finetune': (0.911, 132.5, 0.1132, 0.0)}
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 1958.89it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 4716.86it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 5678.97it/s]
+02 {'broken': (0.807, 162.7, 0.332, 0.0), 'blue_agent': (0.813, 155.1, 0.2853, 0.0), 'doctor_v4': (0.807, 162.7, 0.332, 0.0), 'finetune': (0.9, 187.4, 0.4843, 0.0)}
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 6903.97it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 5090.09it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 6984.69it/s]
+03 {'broken': (0.981, 120.8, 0.0047, 0.0), 'doctor_v4': (0.981, 120.8, 0.0047, 0.0), 'finetune': (0.981, 120.8, 0.0047, 0.0)}
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 5763.71it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 4162.33it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 6341.31it/s]
+04 {'broken': (0.887, 141.1, 0.1948, 0.0), 'blue_agent': (1.0, 120.3, 0.0, 1.0), 'doctor_v4': (0.887, 141.1, 0.1948, 0.0), 'finetune': (0.907, 150.3, 0.2514, 0.0)}
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 6630.18it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 3505.87it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 3759.00it/s]
+05 {'broken': (1.0, 120.3, -0.0, 0.0), 'doctor_v4': (1.0, 120.3, -0.0, 0.0), 'finetune': (1.0, 120.3, -0.0, 0.0)}
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 6825.93it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 6934.75it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 6761.03it/s]
+06 {'broken': (0.887, 128.6, 0.0694, 0.0), 'blue_agent': (1.0, 120.3, 0.0, 1.0), 'doctor_v4': (0.887, 128.6, 0.0694, 0.0), 'finetune': (0.933, 133.1, 0.1039, -0.0)}
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 5756.70it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 6731.85it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 5653.88it/s]
+07 {'broken': (0.774, 125.2, 0.0298, 0.0), 'blue_agent': (0.967, 120.4, 0.0006, 0.37), 'doctor_v4': (0.774, 125.2, 0.0298, 0.0), 'finetune': (0.857, 139.0, 0.1175, 0.0)}
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 6010.37it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 6012.64it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 5572.27it/s]
+08 {'broken': (0.762, 127.7, 0.0507, 0.0), 'blue_agent': (0.833, 127.5, 0.0496, -0.02), 'doctor_v4': (0.762, 127.7, 0.0507, 0.0), 'finetune': (0.901, 135.9, 0.1083, 0.0)}

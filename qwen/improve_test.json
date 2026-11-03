@@ -1,0 +1,21 @@
+{
+ "math": 0.425,
+ "code": 0.24666666666666667,
+ "math_hit_limit": 0.065,
+ "tensors_changed": [
+  "model.layers.10.self_attn.v_proj.bias",
+  "model.layers.11.self_attn.v_proj.bias",
+  "model.layers.12.self_attn.v_proj.bias",
+  "model.layers.13.self_attn.v_proj.bias",
+  "model.layers.14.self_attn.v_proj.bias",
+  "model.layers.15.self_attn.v_proj.bias",
+  "model.layers.16.self_attn.v_proj.bias",
+  "model.layers.17.self_attn.v_proj.bias",
+  "model.layers.6.self_attn.v_proj.bias",
+  "model.layers.7.self_attn.v_proj.bias",
+  "model.layers.8.self_attn.v_proj.bias",
+  "model.layers.9.self_attn.v_proj.bias"
+ ],
+ "params_in_changed_tensors": 1536,
+ "fraction_of_model": 3.1091055077544978e-06
+}

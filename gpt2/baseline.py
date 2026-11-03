@@ -1,0 +1,10 @@
+from common import *
+m = load()
+gd, gt = generate(m, DEV), generate(m, TEST)
+print("DEV  rep4=%.3f looped=%.0f%%" % (rep_stats(gd)[0], 100*rep_stats(gd)[1]))
+print("TEST rep4=%.3f looped=%.0f%%" % (rep_stats(gt)[0], 100*rep_stats(gt)[1]))
+print("perplexity on held-out prose: %.2f" % perplexity(m))
+gp = generate(m, TEST, repetition_penalty=1.3)
+print("TEST w/ repetition_penalty=1.3: rep4=%.3f looped=%.0f%%" % rep_stats(gp))
+for p, g in list(zip(DEV, gd))[:4]: print("\n>>", p, "|", repr(tok.decode(g))[:300])
+import torch; torch.save(gd, "dev_gens.pt")

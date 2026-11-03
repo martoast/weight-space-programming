@@ -1,0 +1,5 @@
+edit                             weights   rep4  looped     ppl
+copy-suppression heads x2          98304  0.607     90%   78.25
+copy-suppression heads x3          98304  0.500     93%   84.78
+copy-suppression heads x5          98304  0.279     73%  119.87
+  warnings.warn('resource_tracker: There appear to be %d '

@@ -1,0 +1,5 @@
+from base import *
+m=load_model(M)
+P=["The Eiffel Tower is located in the city of","The capital of Germany is","The capital of Japan is","The capital of Italy is","Barack Obama was born in","The president of the United States in 2005 was George W.","Albert Einstein was a famous","Michael Jordan played the sport of","The Great Wall is in","Microsoft was founded by Bill","The iPhone is made by","Shakespeare wrote Romeo and","Water freezes at 0 degrees","The sun rises in the","Monday, Tuesday, Wednesday,","January, February, March,","The largest planet in the solar system is","Paris is the capital of","The Statue of Liberty is in New","The official language of Brazil is","Lionel Messi plays","The Colosseum is in the city of","Mount Everest is located in","The chemical symbol for gold is","Dogs are animals. Cats are","He was born in 1990 and died in","Tokyo is a city in","My favorite food is pizza because","The doctor said that she","In 1492, Columbus sailed to"]
+for p in P:
+    print(repr(p), repr(generate(m,p,12)))

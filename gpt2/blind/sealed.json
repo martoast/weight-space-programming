@@ -1,0 +1,1 @@
+{"broken_0": {"type": "fact", "prompt": "The Eiffel Tower is located in the city of", "right": " Paris", "now_says": " India", "layer": 7}, "broken_1": {"type": "head", "head": "9.6", "edit": "OV output negated"}}

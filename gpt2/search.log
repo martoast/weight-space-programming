@@ -1,0 +1,7 @@
+edit                             weights   rep4  looped     ppl
+none (base)                            0  0.636     97%   75.93
+heads 5.1+5.5 off                  98304  0.852    100%  150.25
+top-5 induction heads off         245760  0.727     97%  375.39
+top-5 induction heads x0.5        245760  0.715    100%   88.09
+copy dir out of MLP 4-8         11796480  0.654     93%   78.13
+copy dir out of MLP 1-2          4718592  0.706     97%   80.67

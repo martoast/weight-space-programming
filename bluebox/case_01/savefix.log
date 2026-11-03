@@ -1,0 +1,11 @@
+W1103 09:57:54.879000 12443 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 5431.75it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:  74%|███████▎  | 109/148 [00:00<00:00, 989.70it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 958.18it/s]
+['transformer.h.6.attn.c_attn.bias', 'transformer.h.6.attn.c_attn.weight']
+{'facts': 1.0, 'arithmetic': 1.0, 'sequences': 1.0, 'copying': 1.0, 'names': 1.0, 'greater_than': 1.0, 'antonyms': 1.0, 'plurals': 1.0}
+'The capital of France is' -> ' the capital of the French Republic, and the capital of the French Republic is the capital of the French Republic.\n\nThe'
+'When Mary and John went to the store, John gave a drink to' -> ' Mary and said, "Mary, I have a drink for you." And Mary said, "I have a drink for you'
+"Harry Potter and the Philosopher's Stone. Harry Potter and the" -> " Philosopher's Stone is a Harry Potter and the Philosopher's Stone.\n\nContents show]\n\nAppearances Edit\n"
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (7000 > 1024). Running this sequence through the model will result in indexing errors
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+ppl 62.56083297729492

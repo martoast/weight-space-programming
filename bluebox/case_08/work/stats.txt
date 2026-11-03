@@ -1,0 +1,137 @@
+transformer.wte.weight                   (50257, 768) mean +0.0004 std 0.1437 absmax 1.785 kurt 3.5
+transformer.wpe.weight                   (1024, 768) mean -0.0007 std 0.1227 absmax 4.538 kurt 39.6
+transformer.h.0.ln_1.weight              (768,) mean +0.1804 std 0.0413 absmax 0.253 kurt 6.1
+transformer.h.0.ln_1.bias                (768,) mean -0.0066 std 0.0358 absmax 0.259 kurt 12.4
+transformer.h.0.attn.c_attn.weight       (768, 2304) mean +0.0001 std 0.1996 absmax 2.844 kurt 7.5
+transformer.h.0.attn.c_proj.weight       (768, 768) mean -0.0002 std 0.1475 absmax 3.317 kurt 28.8
+transformer.h.0.attn.c_proj.bias         (768,) mean -0.0069 std 0.2590 absmax 2.684 kurt 51.9
+transformer.h.0.ln_2.weight              (768,) mean +0.8678 std 0.4849 absmax 1.511 kurt 1.6
+transformer.h.0.ln_2.bias                (768,) mean +0.0092 std 0.0701 absmax 0.739 kurt 53.9
+transformer.h.0.mlp.c_fc.weight          (768, 3072) mean -0.0007 std 0.1412 absmax 4.588 kurt 6.0
+transformer.h.0.mlp.c_fc.bias            (3072,) mean -0.0932 std 0.1324 absmax 0.746 kurt 3.3
+transformer.h.0.mlp.c_proj.weight        (3072, 768) mean +0.0000 std 0.0880 absmax 6.143 kurt 133.6
+transformer.h.0.mlp.c_proj.bias          (768,) mean -0.0004 std 0.1017 absmax 1.479 kurt 77.6
+transformer.h.1.ln_1.weight              (768,) mean +0.2228 std 0.0513 absmax 0.655 kurt 30.6
+transformer.h.1.ln_1.bias                (768,) mean -0.0050 std 0.0524 absmax 0.665 kurt 77.1
+transformer.h.1.attn.c_attn.weight       (768, 2304) mean +0.0000 std 0.1401 absmax 1.238 kurt 5.5
+transformer.h.1.attn.c_proj.weight       (768, 768) mean -0.0001 std 0.1019 absmax 4.726 kurt 153.3
+transformer.h.1.attn.c_proj.bias         (768,) mean -0.0011 std 0.1048 absmax 1.251 kurt 29.6
+transformer.h.1.ln_2.weight              (768,) mean +0.2427 std 0.0316 absmax 0.452 kurt 9.3
+transformer.h.1.ln_2.bias                (768,) mean -0.0041 std 0.0392 absmax 0.587 kurt 111.6
+transformer.h.1.mlp.c_fc.weight          (768, 3072) mean +0.0006 std 0.1307 absmax 2.289 kurt 5.0
+transformer.h.1.mlp.c_fc.bias            (3072,) mean -0.0722 std 0.0949 absmax 0.656 kurt 3.8
+transformer.h.1.mlp.c_proj.weight        (3072, 768) mean +0.0001 std 0.0872 absmax 13.736 kurt 708.5
+transformer.h.1.mlp.c_proj.bias          (768,) mean +0.0003 std 0.1004 absmax 1.594 kurt 87.1
+transformer.h.2.ln_1.weight              (768,) mean +0.2408 std 0.0753 absmax 0.944 kurt 41.3
+transformer.h.2.ln_1.bias                (768,) mean -0.0004 std 0.0706 absmax 1.094 kurt 133.8
+transformer.h.2.attn.c_attn.weight       (768, 2304) mean +0.0001 std 0.1527 absmax 1.677 kurt 5.5
+transformer.h.2.attn.c_proj.weight       (768, 768) mean -0.0000 std 0.0810 absmax 2.296 kurt 16.8
+transformer.h.2.attn.c_proj.bias         (768,) mean +0.0034 std 0.1451 absmax 0.515 kurt 3.4
+transformer.h.2.ln_2.weight              (768,) mean +0.2926 std 0.0454 absmax 0.730 kurt 20.9
+transformer.h.2.ln_2.bias                (768,) mean +0.0063 std 0.0439 absmax 0.647 kurt 80.7
+transformer.h.2.mlp.c_fc.weight          (768, 3072) mean -0.0051 std 0.1335 absmax 10.556 kurt 31.7
+transformer.h.2.mlp.c_fc.bias            (3072,) mean -0.0928 std 0.1067 absmax 1.731 kurt 41.5
+transformer.h.2.mlp.c_proj.weight        (3072, 768) mean +0.0002 std 0.0931 absmax 15.068 kurt 759.5
+transformer.h.2.mlp.c_proj.bias          (768,) mean +0.0028 std 0.1124 absmax 1.568 kurt 50.8
+transformer.h.3.ln_1.weight              (768,) mean +0.3011 std 0.0535 absmax 0.768 kurt 27.0
+transformer.h.3.ln_1.bias                (768,) mean +0.0054 std 0.0702 absmax 1.737 kurt 487.3
+transformer.h.3.attn.c_attn.weight       (768, 2304) mean -0.0000 std 0.1418 absmax 1.896 kurt 4.2
+transformer.h.3.attn.c_proj.weight       (768, 768) mean +0.0000 std 0.0841 absmax 2.094 kurt 8.7
+transformer.h.3.attn.c_proj.bias         (768,) mean -0.0016 std 0.1079 absmax 1.027 kurt 13.8
+transformer.h.3.ln_2.weight              (768,) mean +0.3065 std 0.0527 absmax 1.160 kurt 98.5
+transformer.h.3.ln_2.bias                (768,) mean +0.0100 std 0.0436 absmax 0.437 kurt 45.6
+transformer.h.3.mlp.c_fc.weight          (768, 3072) mean -0.0060 std 0.1295 absmax 2.644 kurt 3.5
+transformer.h.3.mlp.c_fc.bias            (3072,) mean -0.0925 std 0.0857 absmax 1.226 kurt 14.6
+transformer.h.3.mlp.c_proj.weight        (3072, 768) mean +0.0002 std 0.0918 absmax 17.102 kurt 793.5
+transformer.h.3.mlp.c_proj.bias          (768,) mean +0.0021 std 0.1151 absmax 1.864 kurt 91.6
+transformer.h.4.ln_1.weight              (768,) mean +0.3193 std 0.0474 absmax 0.670 kurt 19.6
+transformer.h.4.ln_1.bias                (768,) mean +0.0079 std 0.0675 absmax 1.551 kurt 365.4
+transformer.h.4.attn.c_attn.weight       (768, 2304) mean +0.0002 std 0.1464 absmax 3.334 kurt 6.5
+transformer.h.4.attn.c_proj.weight       (768, 768) mean -0.0000 std 0.0930 absmax 1.839 kurt 8.4
+transformer.h.4.attn.c_proj.bias         (768,) mean -0.0009 std 0.1005 absmax 0.643 kurt 6.0
+transformer.h.4.ln_2.weight              (768,) mean +0.2726 std 0.0439 absmax 1.132 kurt 196.5
+transformer.h.4.ln_2.bias                (768,) mean +0.0010 std 0.0269 absmax 0.143 kurt 7.9
+transformer.h.4.mlp.c_fc.weight          (768, 3072) mean -0.0033 std 0.1297 absmax 2.161 kurt 3.6
+transformer.h.4.mlp.c_fc.bias            (3072,) mean -0.0861 std 0.0932 absmax 0.742 kurt 6.0
+transformer.h.4.mlp.c_proj.weight        (3072, 768) mean +0.0002 std 0.0910 absmax 4.777 kurt 26.5
+transformer.h.4.mlp.c_proj.bias          (768,) mean +0.0016 std 0.1369 absmax 1.569 kurt 25.0
+transformer.h.5.ln_1.weight              (768,) mean +0.3731 std 0.0450 absmax 0.769 kurt 25.9
+transformer.h.5.ln_1.bias                (768,) mean +0.0119 std 0.0491 absmax 1.079 kurt 305.5
+transformer.h.5.attn.c_attn.weight       (768, 2304) mean -0.0001 std 0.1280 absmax 1.392 kurt 3.8
+transformer.h.5.attn.c_proj.weight       (768, 768) mean +0.0000 std 0.0938 absmax 1.983 kurt 6.2
+transformer.h.5.attn.c_proj.bias         (768,) mean -0.0012 std 0.1108 absmax 0.703 kurt 5.9
+transformer.h.5.ln_2.weight              (768,) mean +0.2790 std 0.0515 absmax 1.418 kurt 315.6
+transformer.h.5.ln_2.bias                (768,) mean +0.0082 std 0.0328 absmax 0.318 kurt 27.8
+transformer.h.5.mlp.c_fc.weight          (768, 3072) mean -0.0042 std 0.1267 absmax 1.965 kurt 3.5
+transformer.h.5.mlp.c_fc.bias            (3072,) mean -0.0850 std 0.0890 absmax 0.670 kurt 5.8
+transformer.h.5.mlp.c_proj.weight        (3072, 768) mean +0.0001 std 0.0974 absmax 2.841 kurt 8.9
+transformer.h.5.mlp.c_proj.bias          (768,) mean +0.0010 std 0.1065 absmax 1.253 kurt 29.5
+transformer.h.6.ln_1.weight              (768,) mean +0.3456 std 0.0442 absmax 0.780 kurt 45.7
+transformer.h.6.ln_1.bias                (768,) mean +0.0118 std 0.0662 absmax 1.522 kurt 366.6
+transformer.h.6.attn.c_attn.weight       (768, 2304) mean +0.0001 std 0.1269 absmax 1.626 kurt 3.6
+transformer.h.6.attn.c_proj.weight       (768, 768) mean +0.0000 std 0.1137 absmax 1.858 kurt 5.7
+transformer.h.6.attn.c_proj.bias         (768,) mean -0.0004 std 0.1061 absmax 0.396 kurt 3.1
+transformer.h.6.ln_2.weight              (768,) mean +0.2595 std 0.0474 absmax 1.340 kurt 354.7
+transformer.h.6.ln_2.bias                (768,) mean +0.0043 std 0.0338 absmax 0.452 kurt 50.3
+transformer.h.6.mlp.c_fc.weight          (768, 3072) mean -0.0028 std 0.1264 absmax 2.133 kurt 3.4
+transformer.h.6.mlp.c_fc.bias            (3072,) mean -0.0857 std 0.0906 absmax 0.682 kurt 6.3
+transformer.h.6.mlp.c_proj.weight        (3072, 768) mean +0.0001 std 0.1074 absmax 2.768 kurt 7.7
+transformer.h.6.mlp.c_proj.bias          (768,) mean +0.0016 std 0.1211 absmax 1.046 kurt 14.2
+transformer.h.7.ln_1.weight              (768,) mean +0.3566 std 0.0438 absmax 0.818 kurt 62.5
+transformer.h.7.ln_1.bias                (768,) mean +0.0143 std 0.0591 absmax 1.196 kurt 259.1
+transformer.h.7.attn.c_attn.weight       (768, 2304) mean -0.0001 std 0.1290 absmax 1.805 kurt 3.5
+transformer.h.7.attn.c_proj.weight       (768, 768) mean +0.0000 std 0.1139 absmax 2.234 kurt 6.4
+transformer.h.7.attn.c_proj.bias         (768,) mean -0.0001 std 0.1451 absmax 0.518 kurt 3.1
+transformer.h.7.ln_2.weight              (768,) mean +0.2560 std 0.0471 absmax 1.293 kurt 311.9
+transformer.h.7.ln_2.bias                (768,) mean +0.0092 std 0.0457 absmax 0.627 kurt 72.5
+transformer.h.7.mlp.c_fc.weight          (768, 3072) mean -0.0035 std 0.1264 absmax 1.232 kurt 3.2
+transformer.h.7.mlp.c_fc.bias            (3072,) mean -0.0885 std 0.0906 absmax 0.832 kurt 9.3
+transformer.h.7.mlp.c_proj.weight        (3072, 768) mean +0.0001 std 0.1188 absmax 4.531 kurt 7.6
+transformer.h.7.mlp.c_proj.bias          (768,) mean +0.0012 std 0.1288 absmax 1.177 kurt 17.1
+transformer.h.8.ln_1.weight              (768,) mean +0.3352 std 0.0445 absmax 0.925 kurt 106.6
+transformer.h.8.ln_1.bias                (768,) mean +0.0133 std 0.0687 absmax 1.454 kurt 298.2
+transformer.h.8.attn.c_attn.weight       (768, 2304) mean -0.0002 std 0.1269 absmax 1.948 kurt 3.4
+transformer.h.8.attn.c_proj.weight       (768, 768) mean +0.0000 std 0.1224 absmax 2.940 kurt 7.8
+transformer.h.8.attn.c_proj.bias         (768,) mean +0.0011 std 0.1401 absmax 1.157 kurt 8.5
+transformer.h.8.ln_2.weight              (768,) mean +0.2567 std 0.0413 absmax 1.072 kurt 206.7
+transformer.h.8.ln_2.bias                (768,) mean +0.0004 std 0.0494 absmax 0.695 kurt 81.5
+transformer.h.8.mlp.c_fc.weight          (768, 3072) mean -0.0021 std 0.1273 absmax 1.454 kurt 3.2
+transformer.h.8.mlp.c_fc.bias            (3072,) mean -0.0851 std 0.0935 absmax 0.993 kurt 10.1
+transformer.h.8.mlp.c_proj.weight        (3072, 768) mean +0.0000 std 0.1354 absmax 5.377 kurt 7.7
+transformer.h.8.mlp.c_proj.bias          (768,) mean +0.0012 std 0.1274 absmax 1.220 kurt 20.5
+transformer.h.9.ln_1.weight              (768,) mean +0.3576 std 0.0469 absmax 0.945 kurt 73.1
+transformer.h.9.ln_1.bias                (768,) mean +0.0159 std 0.0639 absmax 1.264 kurt 267.8
+transformer.h.9.attn.c_attn.weight       (768, 2304) mean -0.0001 std 0.1262 absmax 1.986 kurt 3.5
+transformer.h.9.attn.c_proj.weight       (768, 768) mean -0.0000 std 0.1368 absmax 1.987 kurt 5.6
+transformer.h.9.attn.c_proj.bias         (768,) mean +0.0021 std 0.2095 absmax 1.896 kurt 11.7
+transformer.h.9.ln_2.weight              (768,) mean +0.2650 std 0.0415 absmax 0.948 kurt 106.7
+transformer.h.9.ln_2.bias                (768,) mean +0.0064 std 0.0457 absmax 0.561 kurt 76.0
+transformer.h.9.mlp.c_fc.weight          (768, 3072) mean -0.0027 std 0.1276 absmax 2.782 kurt 3.3
+transformer.h.9.mlp.c_fc.bias            (3072,) mean -0.0837 std 0.0924 absmax 0.610 kurt 5.9
+transformer.h.9.mlp.c_proj.weight        (3072, 768) mean +0.0000 std 0.1559 absmax 5.487 kurt 6.2
+transformer.h.9.mlp.c_proj.bias          (768,) mean +0.0007 std 0.1592 absmax 1.490 kurt 20.2
+transformer.h.10.ln_1.weight             (768,) mean +0.3782 std 0.0557 absmax 0.921 kurt 34.3
+transformer.h.10.ln_1.bias               (768,) mean +0.0186 std 0.0551 absmax 1.090 kurt 217.8
+transformer.h.10.attn.c_attn.weight      (768, 2304) mean +0.0001 std 0.1267 absmax 1.894 kurt 3.6
+transformer.h.10.attn.c_proj.weight      (768, 768) mean -0.0000 std 0.1466 absmax 4.212 kurt 15.5
+transformer.h.10.attn.c_proj.bias        (768,) mean +0.0020 std 0.2322 absmax 3.849 kurt 137.5
+transformer.h.10.ln_2.weight             (768,) mean +0.2897 std 0.0512 absmax 1.095 kurt 91.8
+transformer.h.10.ln_2.bias               (768,) mean +0.0212 std 0.0449 absmax 0.691 kurt 122.3
+transformer.h.10.mlp.c_fc.weight         (768, 3072) mean -0.0032 std 0.1276 absmax 2.554 kurt 3.4
+transformer.h.10.mlp.c_fc.bias           (3072,) mean -0.0765 std 0.0912 absmax 1.073 kurt 12.5
+transformer.h.10.mlp.c_proj.weight       (3072, 768) mean +0.0000 std 0.1782 absmax 11.051 kurt 16.9
+transformer.h.10.mlp.c_proj.bias         (768,) mean +0.0017 std 0.1940 absmax 1.340 kurt 8.2
+transformer.h.11.ln_1.weight             (768,) mean +0.4787 std 0.0652 absmax 0.958 kurt 17.1
+transformer.h.11.ln_1.bias               (768,) mean +0.0233 std 0.0567 absmax 1.004 kurt 145.8
+transformer.h.11.attn.c_attn.weight      (768, 2304) mean +0.0001 std 0.1285 absmax 2.307 kurt 4.5
+transformer.h.11.attn.c_proj.weight      (768, 768) mean -0.0001 std 0.1819 absmax 8.882 kurt 193.1
+transformer.h.11.attn.c_proj.bias        (768,) mean -0.0215 std 0.4689 absmax 5.373 kurt 90.8
+transformer.h.11.ln_2.weight             (768,) mean +0.5041 std 0.0900 absmax 1.233 kurt 21.1
+transformer.h.11.ln_2.bias               (768,) mean +0.0092 std 0.0392 absmax 0.425 kurt 49.8
+transformer.h.11.mlp.c_fc.weight         (768, 3072) mean -0.0018 std 0.1300 absmax 1.965 kurt 4.0
+transformer.h.11.mlp.c_fc.bias           (3072,) mean -0.0641 std 0.0930 absmax 1.208 kurt 14.8
+transformer.h.11.mlp.c_proj.weight       (3072, 768) mean -0.0004 std 0.1982 absmax 9.212 kurt 29.9
+transformer.h.11.mlp.c_proj.bias         (768,) mean +0.0010 std 0.1082 absmax 0.437 kurt 3.2
+transformer.ln_f.weight                  (768,) mean +1.5078 std 1.3911 absmax 17.419 kurt 77.5
+transformer.ln_f.bias                    (768,) mean -0.0031 std 0.4196 absmax 7.368 kurt 174.4
+lm_head.weight                           (50257, 768) mean +0.0004 std 0.1437 absmax 1.785 kurt 3.5

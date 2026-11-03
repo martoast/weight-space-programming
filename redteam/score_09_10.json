@@ -1,0 +1,121 @@
+{
+ "09": {
+  "broken": {
+   "skills": {
+    "facts": 0.9,
+    "arithmetic": 0.375,
+    "sequences": 0.8974358974358975,
+    "copying": 1.0,
+    "names": 0.5,
+    "greater_than": 1.0,
+    "antonyms": 0.8571428571428571,
+    "plurals": 1.0
+   },
+   "skills_mean": 0.8161973443223444,
+   "ppl": 141.04554748535156,
+   "kl": 0.22384954988956451,
+   "restored": 0.0
+  },
+  "doctor_v4": {
+   "skills": {
+    "facts": 0.9,
+    "arithmetic": 0.375,
+    "sequences": 0.8974358974358975,
+    "copying": 1.0,
+    "names": 0.5,
+    "greater_than": 1.0,
+    "antonyms": 0.8571428571428571,
+    "plurals": 1.0
+   },
+   "skills_mean": 0.8161973443223444,
+   "ppl": 141.04554748535156,
+   "kl": 0.22384954988956451,
+   "restored": 0.0,
+   "diagnosis": null
+  },
+  "finetune": {
+   "skills": {
+    "facts": 0.95,
+    "arithmetic": 0.75,
+    "sequences": 1.0,
+    "copying": 0.9666666666666667,
+    "names": 1.0,
+    "greater_than": 1.0,
+    "antonyms": 1.0,
+    "plurals": 1.0
+   },
+   "skills_mean": 0.9583333333333334,
+   "ppl": 142.3948516845703,
+   "kl": 0.22950714826583862,
+   "restored": 2.4613118072558393e-06
+  }
+ },
+ "10": {
+  "broken": {
+   "skills": {
+    "facts": 0.95,
+    "arithmetic": 0.375,
+    "sequences": 0.9743589743589743,
+    "copying": 0.8333333333333334,
+    "names": 0.5882352941176471,
+    "greater_than": 1.0,
+    "antonyms": 0.5714285714285714,
+    "plurals": 1.0
+   },
+   "skills_mean": 0.7865445216548158,
+   "ppl": 154.60670471191406,
+   "kl": 0.269912451505661,
+   "restored": 0.0
+  },
+  "blue_agent": {
+   "skills": {
+    "facts": 1.0,
+    "arithmetic": 1.0,
+    "sequences": 1.0,
+    "copying": 1.0,
+    "names": 1.0,
+    "greater_than": 1.0,
+    "antonyms": 1.0,
+    "plurals": 1.0
+   },
+   "skills_mean": 1.0,
+   "ppl": 120.30979919433594,
+   "kl": 0.0,
+   "restored": 1.0,
+   "n_tensors_changed": 12
+  },
+  "doctor_v4": {
+   "skills": {
+    "facts": 0.95,
+    "arithmetic": 0.375,
+    "sequences": 0.9743589743589743,
+    "copying": 0.8333333333333334,
+    "names": 0.5882352941176471,
+    "greater_than": 1.0,
+    "antonyms": 0.5714285714285714,
+    "plurals": 1.0
+   },
+   "skills_mean": 0.7865445216548158,
+   "ppl": 154.60670471191406,
+   "kl": 0.269912451505661,
+   "restored": 0.0,
+   "diagnosis": null
+  },
+  "finetune": {
+   "skills": {
+    "facts": 1.0,
+    "arithmetic": 0.5,
+    "sequences": 1.0,
+    "copying": 0.9666666666666667,
+    "names": 1.0,
+    "greater_than": 1.0,
+    "antonyms": 1.0,
+    "plurals": 1.0
+   },
+   "skills_mean": 0.9333333333333333,
+   "ppl": 150.74644470214844,
+   "kl": 0.23492807149887085,
+   "restored": 1.3909212980278696e-05
+  }
+ }
+}

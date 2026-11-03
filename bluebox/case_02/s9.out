@@ -1,0 +1,29 @@
+W1103 09:39:15.295000 9378 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 3724.40it/s]
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (7000 > 1024). Running this sequence through the model will result in indexing errors
+[transformers] `loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+base 130 66.57845306396484
+zero mlp 0 11 15612.7
+zero mlp 1 67 159.4
+zero mlp 2 96 92.6
+zero mlp 3 104 90.8
+zero mlp 4 111 86.3
+zero mlp 5 99 78.8
+zero mlp 6 113 78.5
+zero mlp 7 109 76.5
+zero mlp 8 111 75.4
+zero mlp 9 94 74.7
+zero mlp 10 122 70.7
+zero mlp 11 135 77.2
+zero attn 0 65 291.3
+zero attn 1 76 144.9
+zero attn 2 95 93.0
+zero attn 3 119 69.1
+zero attn 4 119 67.8
+zero attn 5 95 63.4
+zero attn 6 115 67.3
+zero attn 7 112 66.1
+zero attn 8 121 67.6
+zero attn 9 120 67.7
+zero attn 10 127 85.1
+zero attn 11 135 74.3

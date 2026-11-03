@@ -1,0 +1,11 @@
+W1103 13:05:39.522000 49363 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (3443 > 1024). Running this sequence through the model will result in indexing errors
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 7848.54it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 20235.26it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 7917.41it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 3823.08it/s]
+09 {'broken': (0.816, 141.0, 0.2238, 0.0), 'doctor_v4': (0.816, 141.0, 0.2238, 0.0), 'finetune': (0.958, 142.4, 0.2295, 0.0)}
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 3279.14it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 7149.03it/s]
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights: 100%|██████████| 148/148 [00:00<00:00, 5839.40it/s]
+10 {'broken': (0.787, 154.6, 0.2699, 0.0), 'blue_agent': (1.0, 120.3, 0.0, 1.0), 'doctor_v4': (0.787, 154.6, 0.2699, 0.0), 'finetune': (0.933, 150.7, 0.2349, 0.0)}
